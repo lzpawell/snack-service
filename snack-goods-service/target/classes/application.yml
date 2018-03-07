@@ -1,0 +1,33 @@
+server:
+  port: 8223
+spring:
+  profiles:
+    active: dev
+  application:
+    name: snack-goods-goods.service
+  datasource:
+    url: jdbc:mysql://awell.xin:3306/snack_goods_service
+    username: lzp
+    password: chuyin12345
+    driverClassName: com.mysql.jdbc.Driver
+  redis:
+      host: 39.108.65.230
+      password: chuyin12345
+      database: 0
+      port: 6379
+  jpa:
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+
+
+
+app:
+  external:
+    goods-res-pos: file:/root/snack/snack-goods-service/goods-res/
+    goods-kinds-res-pos: file:/root/snack/snack-goods-service/goods-kinds-res/

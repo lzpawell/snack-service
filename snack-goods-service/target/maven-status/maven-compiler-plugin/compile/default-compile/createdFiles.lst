@@ -1,0 +1,15 @@
+goods\repo\TypeRepo.class
+goods\controller\GlobalExceptionHandler.class
+goods\entities\GoodsGroupEntity.class
+goods\MyWebAppConfigurer.class
+goods\service\GoodsService.class
+goods\App.class
+goods\RedisConfig.class
+goods\controller\GoodsController.class
+goods\entities\GoodsEntity.class
+goods\repo\GoodsRepo.class
+goods\entities\LabelEntity.class
+goods\entities\TypeEntity.class
+goods\repo\GoodsGroupRepo.class
+goods\RedisConfig$1.class
+goods\repo\LabelRepo.class

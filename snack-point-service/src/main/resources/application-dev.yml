@@ -1,0 +1,13 @@
+#eureka service center address list , split
+#get service registry list from service center
+#auto update registry list time
+
+eureka:
+  instance:
+  ip-address: 127.0.0.1
+  prefer-ip-address: true
+  client:
+    fetchRegistry: true
+    registryFetchIntervalSeconds: 10
+    serviceUrl: 
+      defaultZone: http://localhost:8100/eureka/

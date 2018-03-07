@@ -1,0 +1,21 @@
+server:
+  port: 8223
+spring:
+  profiles:
+    active: dev
+  application:
+    name: snack-point-service
+  datasource:
+    url: jdbc:mysql://xiaocha.bid:3306/snack
+    username: root
+    password: ASDasd123
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
